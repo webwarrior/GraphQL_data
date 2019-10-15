@@ -1,0 +1,29 @@
+{
+  "name": "GraphQL_data",
+  "version": "1.0.0",
+  "description": "local graphql server",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "testAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webwarrior/GraphQL_data.git"
+  },
+  "keywords": [
+    "GraphQL"
+  ],
+  "author": "Shaun O'Reilly",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/webwarrior/GraphQL_data/issues"
+  },
+  "homepage": "https://github.com/webwarrior/GraphQL_data#readme",
+  "dependencies": {
+    "apollo-server": "^2.9.6",
+    "apollo-server-express": "^2.9.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8"
+  }
+}
