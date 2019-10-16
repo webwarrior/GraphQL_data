@@ -29,7 +29,6 @@ export default {
             models.notes[id] = newNote;
             return newNote;
         },
-
         updateNote: (parent, {
             id, text
         }, {
@@ -43,7 +42,6 @@ export default {
             models.notes[id] = updatedNote;
             return updatedNote;
         },
-
         deleteNote: (parent, {
             id
         }, {
@@ -58,4 +56,5 @@ export default {
             models.notes = otherNotes
             return true
         },
+    }
 }

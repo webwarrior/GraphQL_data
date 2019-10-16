@@ -1,0 +1,3 @@
+CREATE DATABASE mynotes;
+CREATE USER postgres;
+GRANT ALL PRIVILEGES ON DATABASE members TO postgres;
