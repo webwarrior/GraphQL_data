@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/webwarrior/GraphQL_data#readme",
   "dependencies": {
-    "apollo-server": "^2.9.6",
+    "apollo-server": "^2.25.4",
     "apollo-server-express": "^2.9.6",
     "cors": "^2.8.5",
     "express": "^4.17.1",
